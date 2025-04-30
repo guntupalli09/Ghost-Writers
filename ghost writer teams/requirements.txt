@@ -1,0 +1,12 @@
+streamlit==1.32.0
+python-dotenv==1.0.1
+langchain==0.0.350
+langchain-community==0.0.11
+pyperclip==1.8.2
+reportlab==4.1.0
+altair==5.2.0
+pandas==2.2.0
+requests==2.31.0
+ollama==0.1.6
+plotly==5.18.0
+streamlit-lottie==0.0.5
