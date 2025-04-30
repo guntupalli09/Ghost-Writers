@@ -95,14 +95,6 @@ Ghostwriter Teams runs **entirely locally** using models hosted via **Ollama**.
 ## Screenshots
 1. ![GW Content Calendar](Assets/GW-content%20calender.png)
 
-## License
-Copyright © 2025 Santhosh Guntupalli
-
-All rights reserved.
-
-No part of this project may be copied, modified, distributed, or used without explicit permission from the author.
-
-   
 ## 🧱 System Architecture
 
 ```text
@@ -115,6 +107,14 @@ Zara    Max    Mira   Eva   Leo
 LangChain  →  ChatOllama (local model)
            ↘
      Memory + Prompt Templates
+```
+## License
+Copyright © 2025 Santhosh Guntupalli
+
+All rights reserved.
+
+No part of this project may be copied, modified, distributed, or used without explicit permission from the author.
+
 
 
 
