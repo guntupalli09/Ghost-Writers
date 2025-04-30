@@ -86,3 +86,6 @@ Zara    Max    Mira   Eva   Leo
 LangChain  →  ChatOllama (local model)
            ↘
      Memory + Prompt Templates
+
+## Screenshots
+1. [GW Content calender](Assets/GW-content calender.png) 
