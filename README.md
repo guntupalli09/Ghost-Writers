@@ -91,7 +91,7 @@ Ghostwriter Teams runs **entirely locally** using models hosted via **Ollama**.
 
 ---
 ## Screenshots
-1. [GW Content calender](Assets/GW-content calender.png)
+1. ![GW Content Calendar](Assets/GW-content%20calender.png)
    
 ## 🧱 System Architecture
 
