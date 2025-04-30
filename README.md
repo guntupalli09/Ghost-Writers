@@ -1,6 +1,7 @@
 # 👥 Ghostwriter Teams
 
 > An AI-powered creative marketing workspace — driven by multi-agent collaboration, local LLMs, and real-time strategy generation.
+> Instead of a single AI assistant, Ghostwriter Teams gives you **5 specialized AI agents**, each with a unique personality, tone, and strategic purpose. They interact with each other (and the user) to simulate dynamic, intelligent brainstorms — resulting in more original, well-rounded, and deeply personalized outputs.
 
 ---
 
@@ -35,15 +36,31 @@
 
 ---
 
-## 🧠 AI Agents
+## 👥 The Team: Agent Personas
 
-| Agent | Role | Responsibilities |
-|-------|------|------------------|
-| `Zara` | 🎨 Creative Strategist | Hooks, emotional angles, story arcs |
-| `Max`  | ✍️ Content Architect  | Writes Tweets, Blogs, Posts |
-| `Mira` | 📊 Research Analyst    | Audience insights, trends, best times |
-| `Eva`  | 🔍 Critic & Challenger | Critiques and rewrites with scores |
-| `Leo`  | 🛡️ Brand Guardian     | Checks tone, consistency, branding |
+| Agent | Role | Personality | Primary Tasks |
+|-------|------|-------------|----------------|
+| **Zara** | Creative Strategist | Bold, visionary, campaign-minded | Campaign ideas, emotional hooks, storytelling angles |
+| **Max** | Content Architect | Fast, witty, pragmatic | Writes content (tweets, blogs, emails, captions) |
+| **Mira** | Research Analyst | Calm, data-driven, insightful | Brings in trends, competitors, audience insights |
+| **Eva** | Challenger & Critic | Honest, sharp, no-BS | Critiques, rewrites, challenges weak ideas |
+| **Leo** | Brand Guardian | Thoughtful, consistent, classy | Maintains voice, tone, and message alignment |
+
+---
+
+## 🧠 How It Works
+
+1. The user submits a request (e.g., "Help me launch my AI journaling app").
+2. The 5 agents process the input independently, using their specialized roles.
+3. They respond in a **Slack-style threaded interface**, giving diverse perspectives.
+4. They can **respond to each other**, creating a collaborative debate.
+5. Final output includes:  
+   - Content assets (tweet thread, blog, landing page copy)  
+   - Campaign concept and structure  
+   - Brand review and suggested tone edits  
+   - Research-informed insights or warnings  
+   - Critique and sharpened phrasing
+
 
 ---
 
@@ -73,7 +90,9 @@ Ghostwriter Teams runs **entirely locally** using models hosted via **Ollama**.
 `LLM_MODEL=mistral streamlit run app.py`
 
 ---
-
+## Screenshots
+1. [GW Content calender](Assets/GW-content calender.png)
+   
 ## 🧱 System Architecture
 
 ```text
@@ -87,5 +106,4 @@ LangChain  →  ChatOllama (local model)
            ↘
      Memory + Prompt Templates
 
-## Screenshots
-1. [GW Content calender](Assets/GW-content calender.png) 
+
